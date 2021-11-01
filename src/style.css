@@ -1,6 +1,72 @@
+* {
+  box-sizing: border-box;
+}
+/* Style the header */
+.header {
+  background-color: #ffffff;
+  padding: 20px;
+  color: thistle;
+  text-align: center;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #9CAF88;
+  list-style-type:none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #9CAF88;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: thistle;
+  color: white;
+}
+
 h1 {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Poiret One', cursive;
+  font-size: 90px;
   text-align: center;
   color: thistle;
   margin-top: 60px;
+}
+
+body {
+  font-family: 'Poiret One', cursive;
+  text-align: center;
+}
+
+ul {
+  list-style-type:none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #9CAF88;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  padding: 10px;
+}
+
+a:link {
+  color: thistle;
+  text-decoration: none;
 }
